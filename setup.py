@@ -36,7 +36,7 @@ setup(
         'Topic :: Utilities',
     ],
     packages=['certbot_cloudns'],
-    install_requires=['acme', 'certbot>=0.15', 'cloudnsapi'],
+    install_requires=['acme', 'certbot>=0.15', 'cloudns_api'],
     entry_points={
         'certbot.plugins': [
             'dns-cloudns = certbot_cloudns.plugin:Authenticator',
